@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NodeCanvas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <aside id="sidebar">
+        <div class="node-palette-item" draggable="true" data-node-type="Number">Number</div>
+        <div class="node-palette-item" draggable="true" data-node-type="Text">Text</div>
+        <div class="node-palette-item" draggable="true" data-node-type="Add">Add</div>
+        <div class="node-palette-item" draggable="true" data-node-type="Concatenate">Concatenate</div>
+        <div class="node-palette-item" draggable="true" data-node-type="Display">Display</div>
+        <button id="clear-button">Clear</button>
+    </aside>
+
+    <canvas id="canvas"></canvas>
+    <div id="node-container"></div>
+    <button id="run-button">Run</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
